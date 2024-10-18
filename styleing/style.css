@@ -1,0 +1,239 @@
+*{
+    font-family: "Merriweather";
+}
+
+.banner{
+    margin: 0 auto;
+    width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(#070211 , #0702111d) , url("../resources/Banner\ Image.png");
+    
+}
+.banner h4{
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 30px;
+    font-weight: 300 ;
+}
+
+.banner h2{
+    color:  white;
+    text-align: center;
+    font-size: 60px;
+    padding: 0 300px;
+    margin-top: -25px;
+    line-height: 1.6;
+    letter-spacing: 3px;
+}
+.off h2{
+    text-align: center;
+    font-family: "Inter";
+    font-size: 65px;
+    color: red;
+}
+.off h6{
+    text-align: center;
+    font-size: 18px;
+    margin-top: -25px;
+    color: red;
+    text-transform: uppercase;
+}
+.off h4{
+    text-align: center;
+    margin-top: -20px;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.off img{
+    display: block;
+    margin: 0 auto;
+}
+.midnight div{
+    width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.645) , rgba(0, 0, 0, 0)), url("../resources/Vectorrr.png");
+    margin: 150px auto;
+    border-radius: 10px;
+    color: white;
+}
+.midnight h2{
+    padding: 120px 700px 0 150px;
+    font-size: 60px;
+}
+.midnight p{
+    padding: 0 650px 0 150px;
+    margin-top: -30px;
+    opacity: .8;
+    font-weight: lighter;
+}
+.midnight button{
+    margin-left: 150px;
+    padding: 18px 24px;
+    background-color: transparent;
+    border: none;
+    color:white;
+}
+
+.place div{
+    background-image: linear-gradient(#ff000035, #ff000000);
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 24px;
+}
+.place span{
+    color: red;
+}
+.first-p{
+    padding-top: 220px;
+}
+
+.comming > div{
+    width: 1320px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 150px;
+}
+.comming-pic{
+    border: 8px solid transparent;
+    border-radius: 50%;
+}
+.holiday{
+    text-align: center;
+}
+.holiday-image{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:start;
+    background-image: url("../resources/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.girl{
+    margin-right: 70px;
+    z-index: -5;
+    position: relative;
+}
+.gift{
+    width: 750px;
+}
+.holiday h4{
+    font-family: "Inter";
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.holiday span{
+    color: red;
+}
+.holiday h2{
+    font-size: 65px;
+    margin-top: -20px;
+}
+.holiday p{
+    padding: 0 600px;
+    margin: -20px 0 80px; 
+}
+.discount{
+    display: block;
+    position: absolute;
+    top: 50px;
+}
+.shop{
+    display: flex;
+    flex-direction: column;
+    width: 1320px;
+    margin: 0 auto;
+    gap: 80px;
+    margin-top: 50px;
+}
+.shop h4{
+    color: red;
+    font-family: "Inter";
+    font-size: 18px;
+}
+.shop h3{
+    font-family: "Inter";
+    font-size: 26px;
+    margin: -20px 0 0 0 ;
+}
+
+.subscribe{
+    width: 1320px;
+    height: 600px;
+    background-color: rgba(255, 0, 0, 0.058);
+    margin: 100px auto;
+    text-align: center;
+}
+.subscribe img{
+    display: block;
+    margin:  auto;
+    padding: 70px;
+}
+.subscribe h3{
+    font-size: 50px;
+    margin-top: -20px;
+}
+.subscribe p{
+    margin: -20px 0 40px 0;
+    opacity: .6;
+}
+
+.subscribe input{
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: "Inter";
+    padding: 18px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-right: -2px;
+    border: none;
+    opacity: .6;
+    width: 28%;
+}
+.subscribe button{
+    font-size: 16px;
+    font-family: "Inter";
+    color: white;
+    padding: 18px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+    background-color: red;
+    
+}
+footer{
+    background-color: #070211;
+    padding: 50px 0;
+}
+.footer1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 70px 0 30px;
+    opacity: .8;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 80px 0;
+}
+.footer-last{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    opacity: .6;
+}
+hr{
+    opacity: .2;
+}
